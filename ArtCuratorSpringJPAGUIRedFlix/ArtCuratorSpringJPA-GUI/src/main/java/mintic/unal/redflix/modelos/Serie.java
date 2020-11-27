@@ -29,10 +29,10 @@ public class Serie {
     String serTitulo;
     
     @Column(name = "ser_episodios")
-    int serEpisodios;
+    String serEpisodios;
     
     @Column(name = "ser_temporadas")
-    int serTemporadas;
+    String serTemporadas;
     
     public Long getSerId() {
         return serId;
@@ -50,19 +50,19 @@ public class Serie {
         this.serTitulo = serTitulo;
     }
     
-    public int getSerEpisodios() {
+    public String getSerEpisodios() {
         return serEpisodios;
     }
 
-    public void setSerEpisodios(int serEpisodios) {
+    public void setSerEpisodios(String serEpisodios) {
         this.serEpisodios = serEpisodios;
     }
     
-    public int getSerTemporadas() {
+    public String getSerTemporadas() {
         return serTemporadas;
     }
 
-    public void setSerTemporadas(int serTemporadas) {
+    public void setSerTemporadas(String serTemporadas) {
         this.serTemporadas = serTemporadas;
     }
 
